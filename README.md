@@ -1,4 +1,3 @@
-# Blog
-Hi <b>ll</b>
-<href=www.gitgub.com>ll</href>
-# Marius-Frank.github.io
+# AirBnB Berlin Pricing Analysis Over the Past Year
+
+![Year-End Overview of Berlin Airbnb Prices (2023)](figures/pricelog.png)
