@@ -20,7 +20,7 @@
 <h2 id="overall-distribution-of-listing-prices">Overall Distribution of Listing Prices</h2>
 <p>First, to grasp the broader landscape of AirBnB listings in Berlin, it&#39;s fundamental to understand the range and concentration of prices.</p>
 <p><img src="figures/pricelog.png" alt="Distribution of listing prices on a logarithmic scale"></p>
-<p>Prices, when observed on a logarithmic scale, show a concentration primarily between 50 \$ and 200 \$. While outliers do exist, particularly in the higher price range, they represent a small fraction of the total listings. This suggests that the Berlin AirBnB market is catered more towards mid-range priced accommodations.</p>
+<p>Prices, when observed on a logarithmic scale, show a concentration primarily between 50 $ and 200 $. While outliers do exist, particularly in the higher price range, they represent a small fraction of the total listings. This suggests that the Berlin AirBnB market is catered more towards mid-range priced accommodations.</p>
 <p>Having established a baseline understanding of price distribution, it&#39;s logical to dive deeper into the factors affecting these prices.</p>
 <h2 id="location-dependent-prices">Location Dependent Prices</h2>
 <p>Location plays a pivotal role in real estate and short-term rentals. Let&#39;s explore how different Berlin districts fare in terms of the number of listings and their respective prices.</p>
@@ -33,23 +33,30 @@
 <p>The temporal aspect of listing prices can uncover seasonal trends or external influencing factors.</p>
 <p><img src="figures/price-evolution.png" alt="Price Evolution over the Year 2023"></p>
 <p>The steady rise in median prices from January to December suggests increased demand or external economic factors like inflation. Summertime, which is a peak tourist season, might be influencing a spike in prices around mid-year.</p>
+<p> However, the fact that prices keep rising even after summer time, suggests that these the price increases in 2023 are not solely driven by simple demand and supply theory but rather by the rising inflation throughout the year.</p>
 <p>With the temporal dimension explored, we can now delve into the amenities and how they affect pricing.</p>
 <h2 id="amenities-and-their-influence-on-pricing">Amenities and Their Influence on Pricing</h2>
 <p>Amenities can greatly influence a guest&#39;s stay experience. Let&#39;s discern if certain amenities tend to gravitate towards particular price bands.</p>
 <p><img src="figures/amenities_low-price_freq.png" alt="Amenities more often found in higher priced rental units"></p>
 <p>Certain amenities like ironing facilities, toasters, and coffee makers are more prevalent in premium listings, suggesting that higher-priced accommodations ensure a wide array of conveniences. Conversely, some amenities such as smoking permissions seem to be a unique selling proposition for lower-priced listings.</p>
+<p> A very interesting findings here is that security measures like smoke alarms and fire extinguishers are mainly found in very high priced listings while low-priced listings barely ever mention such potentially life saving amenities.</p>
 <p>Having delved into amenities, it&#39;s crucial to assess other features that might be influencing price points.</p>
 <h2 id="features-and-their-impact-on-price">Features and Their Impact on Price</h2>
-<p>Various features, both tangible and intangible, can impact a property&#39;s appeal and price.</p>
+<p>Various features, both tangible and intangible, can impact a property&#39;s appeal and price. To gain a deeper insight into this we have plotted the mutual information of features and price below. The higher the score is the more price is influenced by a particular feature.</p>
 <p><img src="figures/mutual-information.png" alt="Importance of features based on mutual information scores"></p>
-<p>Interestingly, geographical coordinates, particularly latitude and longitude, emerge as significant determinants. This reiterates the importance of location. Additionally, guest reviews and ratings sway the price, emphasizing the importance of maintaining quality in listings.</p>
+<p>Interestingly, geographical coordinates, particularly latitude and longitude, emerge as significant determinants. This reiterates the importance of location. The actual location within a district, hence, seems to be more important for pricing than the bare label/name
+of the district</p>
+<p> Another interesting findings is that the number of listings of a host also seems to affect price substantially. This indicates that
+professional investors tend to demand higher price.</p>
+<p>Additionally, guest reviews and ratings sway the price, emphasizing the importance of maintaining quality in listings.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>To summarize:</p>
 <ul>
 <li>Prices in Berlin&#39;s AirBnB market are predominantly mid-range, catering to a broad audience.</li>
 <li>Location emerges as a consistent determinant of price, with central areas being both popular and pricier.</li>
-<li>Prices have seen a steady ascent throughout 2023, hinting at increased demand or economic fluctuations.</li>
-<li>Amenities, while influential, are secondary to location and guest feedback in dictating prices.</li>
+<li>Prices have seen a steady ascent throughout 2023, hinting to the high inflation in 2023 as a key driver of price.</li>
+<li>Amenities, while influential, seem secondary to location and guest feedback in dictating prices. However, invesing in some convenient amenities might be beneficial for hosts in order to demand higher prices.</li>
+<li> All in all, these findings suggest that profit oriented investors or wealthy individuals are dictating Berlin's AirBnB market. If the fraction of private and professional listings was equal, then the number of listings in different districts should also be closer to each other.
 </ul>
 <p>These insights equip potential hosts with the knowledge to position their listings competitively, and travelers can gauge the value offerings of accommodations better.</p>
 
